@@ -1,0 +1,214 @@
+*{
+	font-family: "微软雅黑";
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: rgba(135,206,250,0.2);
+}
+
+/*头部背景*/
+#headBackDiv{
+	width: 1900px;
+	height: 60px;
+	background: url(../../img/indexIMG/other/headBgi.jpg) 0px -500px;
+}
+/*头部主体*/
+#headDiv{
+	width: 1000px;
+	height: 60px;
+	margin: 0px auto;
+	overflow: auto;
+}
+/*头部logo*/
+#headLogo{
+	width: 200px;
+	height: 54px;
+	margin-left: 10px;
+	float: left;
+	
+}
+/*logo内容*/
+#headLogoSpan{
+	font-size: 45px;
+	color: #FF7F24 ;
+}
+#headUrlSpan{
+	font-size: 10px;
+	color: #FF7F24;
+}
+/*头部右边显示*/
+#headGuideUL{
+	width:220px;
+	height: 56px;
+	margin-right: 10px;
+	float: right;
+	overflow: auto;
+	list-style: none;
+}
+/*头部右边显示-登录注册*/
+#loginDiv{
+	width: 164px;
+	height: 34px;
+	margin-top: 2px;
+	float: left;
+	padding-top: 18px;
+	text-align: right;
+}
+#loginDiv1{
+	width: 164px;
+	height: 40px;
+	margin-top: 2px;
+	float: left;
+	padding-top: 12px;
+	text-align: right;
+	
+}
+#logindiv_cell1{
+	width: 34px;
+	height: 34px;
+	float:right;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	background-image: url(../../img/indexIMG/other/logincell_setting.png);
+}
+#logindiv_cell1:hover{
+	background-color: rgba(255,255,255,0.9);
+	background-image: url(../../img/indexIMG/other/logincell_setting1.png);
+}
+.hideclass{
+	display:none;
+}
+.showclass{
+	display:block;
+}
+
+
+/*头部右边显示-小头像*/
+#myIconDiv{
+	width: 36px;
+	height: 36px;
+	margin-top: 12px;
+	float: right;
+	border-radius:36px;
+	background-size: 36px 36px;
+	
+}
+
+/* 登录cell ul */
+.logindiv_cell_ul{
+	background-color: rgba(255,255,255,0.9);
+	border-radius:3px;
+	width:76px;
+	list-style: none;
+	position:absolute;
+	top:46px;
+	display:none;
+	padding:2px 0px;
+}
+.logindiv_cell_ul li{
+	width:70px;
+	height:24px;
+	color:black;
+	text-align:left;
+	font-size:14px;
+	padding-left:6px;
+	padding-top:6px;
+}
+/* 登录cell */
+#logindiv_cell1_ul{
+	left:1308px;
+}
+#logindiv_cell1_ul a{
+	text-decoration: none;
+}
+#logindiv_cell1_ul a li:hover{
+	color:#ff3300;
+}
+
+#logindiv_cell1:hover #logindiv_cell1_ul{
+	display:block;
+}
+/* 登录头像下拉菜单 */
+#loginiconUL{
+	left:1365px;
+}
+#loginiconUL a{
+	text-decoration: none;
+}
+#loginiconUL a li:hover{
+	color:#ff3300;
+}
+#myIconDiv:hover #loginiconUL{
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*搜索框Div*/
+#headSelDiv{
+	width: 300px;
+	height: 52px;
+	margin-top: 2px;
+	float: right;
+	overflow: auto;
+	text-align: center;
+}
+/*搜索框Div-文本*/
+#AllSelText{
+	width: 180px;
+	height: 27px;
+	border: 1px solid #FF7F24;
+	display: block;
+	float: left;
+	margin-left: 50px;
+	margin-top: 15px;
+	border-radius: 4px;
+}
+
+/*搜索框Div-按钮*/
+#AllSelBtn{
+	width: 30px;
+	border: 1px solid #FF7F24;
+	height: 27px;
+	background-color: white;
+	margin-top: 15px;
+	border-radius: 4px;
+	display: block;
+	float: left;
+	background-image: url(../../img/indexIMG/other/allSelBtn.png);
+}
+
+
+
+
+
+
+/*头部字体*/
+.headGuideSpan{
+	color: white;
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.headGuideSpan:hover{
+	color: #FF3300;
+	position: relative;
+	top: 2px;
+}
+
+
+
+
+
+
+

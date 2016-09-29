@@ -1,0 +1,504 @@
+
+	
+
+	/*帖子主体*/
+	#noteDiv{
+		width: 1002px;
+		margin-left: 450px;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+	
+	
+	#noteMainDiv{
+		width: 1000px;
+		border: 1px solid lightgray;
+		overflow: auto;
+		border-bottom: none;
+	}
+	/*帖子标题*/
+	#noteTitleDiv{
+		width: 1000px;
+		height: 50px;
+		border-bottom: 1px solid lightgray;
+		overflow: auto;
+	}
+	#noteTitleLable{
+		width: 790px;
+		height: 40px;
+		display: block;
+		float: left;
+		font-size: 21px;
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+	#noteBackBtn{
+		width: 80px;
+		height: 25px;
+		background: none;
+		border: 1px solid #FF3300;
+		margin-left: 100px;
+		margin-top: 10px;
+		color: #FF3300;
+	}
+	/*楼主*/
+	#notePublisherDiv{
+		width: 200px;
+		height: 200px;
+		background-image: url(../../img/showNoteIMG/publisherBgi.png) ;
+		background-repeat:no-repeat;
+		padding-top: 30px;
+		float: left;
+	}
+	#notePubIcon{
+		width: 90px;
+		height: 90px;
+		border-radius: 90px;
+		margin: 0px auto;
+		border: 2px solid lightgray;
+		background-size: 90px,90px;
+		background-repeat: no-repeat;
+	}
+	#notePubName{
+		width: 200px;
+		height: 30px;
+		margin-top: 10px; 
+		margin-bottom: 10px; 
+		overflow:hidden;
+		text-align:center;
+	}
+	
+	
+	
+	
+	/*帖子正文*/
+	#noteArticalDiv{
+		width: 770px;
+		margin-left:10px;
+		margin-top: 20px;
+		float: left;
+		margin-bottom: 20px;
+		word-wrap:break-word; 
+		word-break:break-all; 
+	}
+	
+	/*帖子状态*/
+	#noteStateDiv{
+		width: 980px;
+		height: 30px;
+		text-align: right;
+		border: 1px solid lightgray;
+		border-top: none;
+		font-size: 14px;
+		color: darkgray;
+		padding-right: 20px;
+	}
+	#noteStateDiv a{
+		text-decoration: none;
+		color: cornflowerblue;
+	}
+	
+	
+	
+	/*回复主体*/
+	#replyDiv{
+		width: 1002px;
+		margin-left: 450px;
+		margin-top: 10px;
+		border: 1px solid lightgray;
+		border-top:none;
+	}
+	
+	
+	#replyMainDiv{
+		width: 1000px;
+		overflow: auto;
+		border-top: 1px solid lightgray;
+		border-bottom: none;
+	}
+	
+	/*回复人*/
+	#replyPublisherDiv{
+		width: 200px;
+		height: 200px;
+		padding-top: 30px;
+		float: left;
+	}
+	#replyPubIcon{
+		width: 90px;
+		height: 90px;
+		border-radius: 90px;
+		margin: 0px auto;
+		border: 2px solid lightgray;
+		background: url(../../img/DEFAULTICON/defaultIcon.png);
+		background-repeat:no-repeat;
+		background-size: 90px,90px;
+		
+	}
+	#replyPubName{
+		width: 200px;
+		height: 30px;
+		margin-top: 10px; 
+		margin-bottom: 10px; 
+		overflow:hidden;
+		text-align:center;
+	}
+	
+	
+	
+	/*回复正文*/
+	#replyArticalDiv{
+		margin-left:10px;
+		width: 770px;
+		margin-top: 20px;
+		float: left;
+		margin-bottom: 5px;
+		word-wrap:break-word; 
+		word-break:break-all; 
+	}
+	
+	/*回复状态*/
+	#replyStateDiv{
+		width: 980px;
+		height: 30px;
+		text-align: right;
+		font-size: 14px;
+		color: darkgray;
+		text-align: right;
+		padding-right: 20px;
+	}
+	#replyStateDiv a{
+		text-decoration: none;
+		color: cornflowerblue;
+	}
+	
+	/* 	楼中楼table */
+	#childReplyTable{
+		width: 1000px;
+		height: 50px;
+		padding-bottom: 10px;
+	}
+	#childReplyTable tr td:nth-child(2){
+		
+		width: 750px;
+		height: 40px;
+		margin-left: 220px;
+		border: 1px solid darkgray;
+		padding: 5px;
+		font-size: 14px;
+		color: gray;
+		float: left;
+	
+	}
+	#childReplyTable tr td:nth-child(2) a{
+		color: royalblue;
+		text-decoration: none;
+	}
+	#childReplyTable tr td:last-child{
+		width: 54px;
+		height: 54px;
+		float: left;
+		margin-left: 10px;
+		margin-top: 16px;
+		/* background: url(../../img/showNoteIMG/replychild1.png) 10px 10px; */
+		background-repeat:no-repeat;
+	}
+	
+	
+	/* 回复回复table */
+	#repReplyTable{
+		width: 1000px;
+		height: 100px;
+		border-left: 1px solid lightgray;
+		border-right: 1px solid lightgray;
+		padding-bottom: 10px;
+	}
+	#repReplyTable tr td:nth-child(1){
+		width: 175px;
+		height: 100px;
+	}
+	#repReplyTable tr td:nth-child(2){
+		height: 105px;
+		border: 1px solid lightgray;
+		padding: 5px;
+		font-size: 14px;
+		color: gray;
+	}
+	#repReplyTable tr td:nth-child(3){
+		width: 48px;
+		padding-left:5px;
+		height: 100px;
+	}
+	#repReplyTable tr td:nth-child(3) a{
+		color: royalblue;
+		font-size:14px;
+		text-decoration: none;
+	}
+	.repReplyTa{
+		display:block;
+		width:760px;
+		height:60px;
+		padding:5px;
+		border:1px solid darkgray;
+	}
+	#repReplyBtn{
+		display:block;
+		width: 80px;
+		height: 25px;
+		background: none;
+		border: 1px solid #ff3300;
+		margin-left: 680px;
+		margin-top: 5px;
+		color: #ff3300;
+	}
+	
+	/* */
+	
+	#childReplyTable tr td:last-child:hover{
+/* 		background: url(../../img/showNoteIMG/replychild2.png) 9px 9px; */
+		background-repeat:no-repeat;
+	}
+	
+	
+
+
+
+
+
+
+	
+	#pubReplyDiv4{
+		width: 740px;
+		height: 50px;
+		float: left;
+		text-align: right;
+		margin-left:450px;
+		margin-top:10px;
+		margin-bottom:300px;
+	}
+	#pubReplyBtn{
+		width: 100px;
+		height: 32px;
+		border-radius: 4px;
+		font-size: 18px;
+		color: white;
+		background-color: cornflowerblue;
+	}
+
+
+
+	/*遮罩层*/
+	#zz{
+		z-index: 10001;
+		width: 1920px;
+		height: 1080px;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		background: rgba(0,0,0,0.5);
+		display: none;
+	}
+
+
+	/*翻页div*/
+	#pageChangeDiv{
+		width: 400px;
+		margin-left: 460px;
+		height: 50px;
+		margin-bottom:100px;
+	}
+	/*翻页table*/
+	#pageChangeTable{
+		width: 400px;
+		height: 50px;
+	}
+	#pageChangeTable a{
+		text-decoration: none;
+		color: dimgray;
+	}
+	#pageBtn{
+		width: 60px;
+		height: 23px;
+	}
+	
+	
+	
+	/* 	提示div */
+    #tipDiv{
+    	width:300px;
+    	height:36px;
+    	border-radius:10px;
+    	background-color:#AFEEEE;
+    	font-size:16px;
+    	display:none;
+    	position:fixed;
+    	padding-top:15px;
+    	text-align:center;
+    }
+    
+    .showclass{
+    	display:block;
+    }
+    .hideclass{
+    	display:none;
+    }
+    
+    
+    /* 删除确定 */
+    #delconfirmDiv{
+    	width:350px;
+    	height:150px;
+    	background:rgba(65,150,240,0.3);
+    	border:1px solid lightblue;
+    	border-radius:10px;
+    	position:fixed;
+    	top:350px;
+    	left:750px;
+    	display:none;
+    	z-index:10002;
+    }
+    #delconfirmDiv1{
+    	width:350px;
+    	height:30px;
+    	text-align:center;
+    	font-size:20px;
+    	padding-top:30px;
+    	color:white;
+    }
+    #delconfirmDiv2{
+    	width:350px;
+    	height:90px;
+    }
+    #delconfirmDiv2 table{
+    	width:350px;
+    	height:90px;
+    }
+     /* 回复删除确定 */
+    #repdelconfirmDiv{
+    	width:350px;
+    	height:150px;
+    	background:rgba(65,150,240,0.3);
+    	border:1px solid lightblue;
+    	border-radius:10px;
+    	position:fixed;
+    	top:350px;
+    	left:750px;
+    	display:none;
+    	z-index:10002;
+    }
+    #repdelconfirmDiv1{
+    	width:350px;
+    	height:30px;
+    	text-align:center;
+    	font-size:20px;
+    	padding-top:30px;
+    	color:white;
+    }
+    #repdelconfirmDiv2{
+    	width:350px;
+    	height:90px;
+    }
+    #repdelconfirmDiv2 table{
+    	width:350px;
+    	height:90px;
+    }
+    .confirmbtn{
+    	width:80px;
+    	height:40px;
+    	background:none;
+    	border:1px solid lightblue;
+    	margin-left:45px;
+    	font-size:18px;
+    	color:white;
+    	
+    }
+    
+    
+    /*右边fixedDiv*/
+	#repfixedDiv{
+		width: 36px;
+		height: 100px;
+		position: fixed;
+		left: 1460px;
+		top: 700px;
+	}
+    /*右边fixedDiv-cell*/
+	#repfixedDivCell1{
+		width: 36px;
+		height: 36px;
+		margin-bottom: 10px;
+		background: url(../../img/indexIMG/FixedDiv/top1.png);
+	}
+	#repfixedDivCell2{
+		width: 36px;
+		height: 36px;
+		margin-bottom: 3px;
+		background: url(../../img/indexIMG/FixedDiv/note1.png);
+	}
+	#repfixedDivCell1:hover{
+		background: url(../../img/indexIMG/FixedDiv/top2.png);
+	}
+	#repfixedDivCell2:hover{
+		background: url(../../img/indexIMG/FixedDiv/note2.png);
+	}
+    
+    
+    
+    /* sa帖子操作 */
+    .saNoteEditLabelClass{
+    	text-align:center;
+   		border: 1px solid royalblue;
+   		width: 50px;
+   		height:20px;
+   		color:royalblue;
+   		display: inline-block;
+    }
+    .saNoteulClass{
+    	list-style: none;
+    	display: inline-block;
+    	width: 50px;
+   		height:20px;
+    }
+    .saNotecellulClass{
+    	background-color: white;
+    	border:1px solid royalblue;
+		width:76px;
+		list-style: none;
+		position:absolute;
+		display:none;
+		padding:2px 0px;
+    }
+    .saNotecellulClass li{
+		width:68px;
+		height:26px;
+		color:royalblue;
+		text-align:left;
+		padding-left:8px;
+		padding-top:4px;
+	}
+	.saNotecellulClass li:hover{
+		color:#ff3300;
+	}
+    .saNoteEditLabelClass:hover .saNotecellulClass{
+    	display:inline-block;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

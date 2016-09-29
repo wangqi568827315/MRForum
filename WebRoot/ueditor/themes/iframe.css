@@ -1,0 +1,7 @@
+/*可以在这里添加你自己的css*/
+/*内容框高度宽度*/  
+.edui-default .edui-editor-iframeholder {  
+     height: 200px;  
+     width:800px;
+     background-color:#000066;  
+ } 

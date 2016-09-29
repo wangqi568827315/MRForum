@@ -1,0 +1,312 @@
+	#mainDiv{
+		width: 1900px;
+		height: 600px;
+		background: url(../../img/indexIMG/BodyBgi/bodyBgi6.jpg) 0px -200px;
+		margin-top: 10px;
+	}
+	
+	#mainFrameDiv{
+		width: 1000px;
+		height: 600px;
+		margin: 0px auto;
+		overflow: auto;
+	}
+	#mainMsgDiv{
+		width: 300px;
+		height: 580px;
+		margin-top: 10px;
+		margin-left: 10px;
+		
+		float: left;
+	}
+	#mainMsg_MyMsg{
+		width: 300px;
+		height: 265px;
+		background: rgba(60,60,60,0.7);
+		border-radius: 10px;
+		padding-top: 20px;
+	}
+	#mainMsg_MyMsg_icon{
+		width: 80px;
+		height: 80px;
+		margin: 0px auto;
+		border-radius:80px;
+		background-size: 80px 80px;
+	}
+	#mainMsg_MyMsg_icon img{
+		width: 80px;
+		height: 80px;
+		margin: 0px auto;
+		border-radius:80px;
+	}
+	
+	#mainMsg_MyMsg_name{
+		width: 300px;
+		height: 30px;
+		margin-top: 10px;
+		text-align: center;
+		font-size: 16px;
+		color: white;
+	}
+	/*我的经验*/
+	#mainMsg_MyMsg_exp{
+		width: 300px;
+		height: 50px;
+		margin-top: 10px; 
+		overflow: auto;
+		color: white;
+	}
+	/*经验数值*/
+	#mainMsg_MyMsg_exp_count{
+		float: left;
+		width: 120px;
+		height: 44px;
+		font-size: 16px;
+		padding-left: 80px;
+		padding-top: 6px;
+	}
+	/*等级图标*/
+	#mainMsg_MyMsg_exp_image{
+		float: left;
+		width: 80px;
+		height: 50px;
+	}
+	
+	
+	
+	#mainMsg_ThisMsg{
+		width: 300px;
+		height: 285px;
+		background: rgba(60,60,60,0.7);
+		border-radius: 10px;
+		margin-top: 10px;
+	}
+	
+	
+	
+	/*签到按钮Div*/
+	#mainMsg_MyMsg_signin{
+		width: 200px;
+		height: 50px;
+		margin: 5px auto;
+	}
+	#signin_btn{
+		width: 138px;
+		height: 50px;
+		background: rgba(65,150,240,0.7);
+		border: none;
+		font-size: 24px;
+		color: white;
+		position: relative;
+		left: 2px;
+	}
+	/*日期*/
+	#datelabel{
+		font-size: 14px;
+		width: 53px;
+		height: 43px;
+		float: right;
+		padding-top: 5px;
+		color: #606060;
+		border: 1px solid lightgray;
+		padding-left: 5px;
+		background-color: lightgray;
+	}
+	
+	
+	
+	
+	
+	/*消息框正文提示lable*/
+	#msgtipDiv{
+		width: 260px;
+		height: 20px;
+		margin: 0px auto;
+		color: white;
+		padding-top: 10px;
+	}
+	
+	/*论坛管理表格*/
+	.managerTable{
+		width: 250px;
+		height: 250px;
+		margin: 0px auto;
+		text-align: center;
+	}
+	/*论坛管理头像div*/
+	.managerIcon{
+		width: 48px;
+		height: 48px;
+		border-radius: 48px;
+		margin: 10px auto;
+		background-image: url(../../img/DEFAULTICON/defaultIcon.png);
+		background-size: 48px 48px;
+		
+	}
+	/*论坛管理昵称lable*/
+	.managerNickname{
+		color: #FF7F24;
+	}
+	
+	
+	
+	/*右边教学div*/
+	#mainCouDiv{
+		width: 670px;
+		margin: 0px 10px;
+		height: 580px;
+		margin-top: 10px;
+		background: rgba(60,60,60,0.7);
+		border-radius: 10px;
+		float: left;
+	}
+	/*右边Ul*/
+	#mainCouUlDiv{
+		width: 650px;
+		margin: 0px auto;
+		height: 160px;
+		margin-top: 10px;
+	}
+	/*右边Ul标题*/
+	#mainCouUlUpDiv{
+		width: 650px;
+		height: 40px;
+		margin: 0px auto;
+		background: rgba(0,0,0,0.3);
+		border-radius: 5px;
+	}
+	/*右边Ul标题内容*/
+	#mainCouUlUp{
+		width: 650px;
+		list-style: none;
+		font-size: 22px;
+		overflow: auto;
+		padding: 0px;
+	}
+	#mainCouUlUp li{
+		margin-left: 20px;
+		width: 107px;
+		height: 44px;
+		float: left;
+		text-align: center;
+		font-size: 18px;
+		padding-top: 6px;
+		color :white;
+	}
+	
+	/*右边小Ul Div*/
+	.mainCouDownDiv{
+		width: 105px;
+		height: 166px;
+		float: left;
+		margin-left: 20px;
+		margin-top: -15px;
+	}
+	.mainCouUlDown:hover{
+		background: url(../../img/indexIMG/other/ulbgi.png);
+	}
+	.mainCouUlDown a{
+		text-decoration:none;
+	}
+	/*右边小Ul*/
+	.mainCouUlDown{
+		width: 105px;
+		height: 150px;
+		list-style: none;
+		font-size: 14px;
+		line-height: 150%;
+	}
+	.mainCouUlDown li{
+		padding-top: 0px;
+		text-align: center;
+		position: relative;
+		top: 16px;
+		line-height:25px;
+	}
+	.mainCouUlDown li span{
+		padding-top: 0px;			
+		color: white;
+	}		
+	.mainCouUlDown li span:hover{
+		color: #FF0000;
+	}
+	
+
+	
+	
+	/*右边图片区域*/
+	#mainCouImgDiv{
+		width: 650px;
+		height: 390px;
+		margin: 0px auto;
+		margin-top: 8px;
+	}
+	.mainCouImg{
+		width: 650px;
+		height: 366px;
+		margin-top: -20px;
+	}
+	/*图片导航*/
+	#mainCouImgDivBanner{
+		width: 650px;
+		margin: 0px auto;
+		height: 40px;
+		background:rgba(0,0,0,0.3);
+		z-index: 2;
+		margin-top: -40px;
+	}
+	#mainCouImgDivImg{
+		width: 640px;
+		height: 360px;
+		background-size: 640px 360px;
+		border: 5px solid #ffe4e1;
+		margin-top: 30px;
+		border-radius: 4px ;
+		background-image: url(../../img/indexIMG/CouDivImg/couDivImg1.jpg);
+	}
+	
+	/*切换图片Ul*/
+	#mainCouImgScrollUl{
+		width: 650px;
+		height: 40px;
+		list-style: none;
+		font-size: 22px;
+		overflow: auto;
+		color :white;
+	}
+	#mainCouImgScrollUl li{
+		width: 128px;
+		height: 30px;
+		float: left;
+		text-align: center;
+		color :white;
+		font-size: 18px;
+		border-left: 1px solid lightgray;
+		padding-top: 5px;
+	}
+	#mainCouImgScrollUl li:first-child{
+		border-left: none;
+	}
+
+	#mainCouImgScrollUl{
+		color :white;
+	}
+	.mainCouImgScrollUlhover{
+		border-bottom: 5px solid #FF3300;
+		color: #FF3300;
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

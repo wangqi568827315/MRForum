@@ -1,0 +1,108 @@
+*{
+	font-family: "微软雅黑";
+	margin: 0px;
+	padding: 0px;
+}
+
+	#topDiv{
+		width: 1920px;
+		height: 60px;
+		background: url(../../img/indexIMG/other/headBgi.jpg) 0px -500px;
+	}	
+	/*头部logo*/
+	#headLogo{
+		width: 200px;
+		height: 54px;
+		float: left;
+		margin-left: 460px;
+	}
+	/*logo内容*/
+	#headLogoSpan{
+		font-size: 45px;
+		color: #FF7F24;
+	}
+	#headUrlSpan{
+		font-size: 10px;
+		color: #FF7F24;
+	}
+
+
+		/*主体*/
+		#regist_title{
+			font-size: 36px;
+			font-weight: bold;
+			width: 800px;
+			margin: 20px auto;
+			margin-left: 460px;
+			text-align: left;
+		}
+		#regist_tip{
+			color: orangered;
+			width: 800px;
+			margin: 0px auto;
+			margin-left: 460px;
+		}
+		#regist_main{
+			width: 1000px;
+			height:600px;
+		}
+		#msg_table{
+			width: 800px;
+			margin: 50px auto;
+			margin-left: 460px;
+			font-size: 21px;
+		}
+		#msg_table tr td:first-child{
+			width: 180px;
+			text-align: right;
+		}
+		#msg_table tr td {
+			height: 60px;
+		}
+		#msg_table tr td:nth-child(2){
+			width: 200px;
+		}
+		.textStyle{
+			width: 190px;
+			height: 32px;
+			font-size: 18px;
+			border-radius: 5px;
+			border: 1px solid #de4627;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+		#regist_submit{
+			width: 200px;
+			height: 40px;
+			text-align: center;
+			font-size: 20px;
+			color: white;
+			border-radius: 5px;
+			border: 1px solid darkgray;
+			background-color: #ff3300;
+		}
+		#regist_submit:active{
+			position: relative;
+			top: 2px;
+			left: 2px;
+		}
+		
+		
+		.msgspan{
+			font-size: 14px;
+			color: gray;
+		}
+	
+		/* 	提示div */
+    	#tipDiv{
+	    	width:300px;
+	    	height:36px;
+	    	border-radius:10px;
+	    	background-color:#AFEEEE;
+	    	font-size:16px;
+	    	display:none;
+	    	position:absolute;
+	    	padding-top:15px;
+	    	text-align:center;
+ 	   }
+		

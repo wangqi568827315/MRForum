@@ -1,0 +1,153 @@
+	*{
+		padding: 0px;
+		margin: 0px;
+		font-family: "微软雅黑";
+	}
+	
+	#topDiv{
+		width: 1920px;
+		height: 60px;
+		background: url(../../img/indexIMG/other/headBgi.jpg) 0px -500px;
+	}	
+	/*头部logo*/
+	#headLogo{
+		width: 200px;
+		height: 54px;
+		margin-left: 10px;
+		float: left;
+		margin-left: 460px;
+	}
+	/*logo内容*/
+	#headLogoSpan{
+		font-size: 45px;
+		color: #FF7F24;
+	}
+	#headUrlSpan{
+		font-size: 10px;
+		color: #FF7F24;
+	}
+	
+	/*主体*/
+	#mainDiv{
+		width: 1920px;
+		height: 425px;
+		background:url(../../img/indexIMG/other/headBgi.jpg);
+		margin-top: 150px;
+		padding-top: 25px;
+	}
+	
+	
+	
+	/*登录div*/
+	#loginDiv{
+		width: 350px;
+		height: 380px;
+		background: rgba(60,60,60,0.3);
+		margin-left: 750px;
+		border-radius: 20px;
+		padding-top: 20px;
+	}
+	
+	/*头像*/
+	#iconDiv{
+		width: 80px;
+		height: 80px;
+		border-radius: 80px;
+		background-image: url(../../img/DEFAULTICON/defaultIcon.png); 
+		background-size: 80px,80px;
+		margin: 0px auto;
+		margin-top: 10px;
+	}
+	.loginText1{
+		margin-top: 20px;
+		width: 350px;
+		height: 42px;
+		text-align: center;
+		padding-top: 8px;
+	}
+	/*账号密码*/
+	#username{
+		width: 190px;
+		height: 32px;
+		background-color: white;
+		position: relative;
+		top: -10px;
+		border-radius: 5px;
+		font-size: 18px;
+		padding-left: 5px;
+		padding-right: 5px;
+		color: lightgray;
+	}
+	#password{
+		width: 190px;
+		height: 32px;
+		background-color: white;
+		position: relative;
+		top: -10px;
+		border-radius: 5px;
+		font-size: 18px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	.loginText2{
+		overflow: auto;
+		width: 190px;
+		height: 30px;
+		margin: 0px auto;
+		margin-top: 20px;
+		padding-left: 40px;
+		padding-right: 20px;
+	}
+	
+	/*注册*/
+	#regDiv{
+		float: left;
+		width: 95px;
+		height: 30px;
+		text-align: left;
+	}
+	#cpwdDiv{
+		float: left;
+		width: 95px;
+		height: 30px;
+		text-align: right;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	a:hover{
+		color: #FF3300;
+	}
+	
+	#loginBtn{
+		width: 235px;
+		height: 40px;
+		background-color: #FF3300;
+		border: none;
+		border-radius: 5px;
+		color: white;
+		font-size: 20px;
+		margin-top: -20px;
+	}
+	#loginBtn:active{
+		position: relative;
+		top: 2px;
+		right: 2px;
+	}
+	
+	
+	#loginMsgDiv{
+		width:350px;
+		text-align:center;
+		color:red;
+		margin-top:-10px;
+	}
+	
+	
+	
+	
+	
+	
+	

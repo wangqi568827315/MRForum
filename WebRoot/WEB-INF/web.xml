@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>MRForum</display-name>
+
+   
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>notePageServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.notePageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showManagerServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.showManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showPageInfoServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.showPageInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showNoteInfoServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.showNoteInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>signinServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.signinServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pubNoteServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.pubNoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delNoteServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.delNoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.registServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>backToIndexServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.backToIndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registCheckAccountServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.registCheckAccountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registCheckPhoneServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.registCheckPhoneServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>checkOldPwdServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.checkOldPwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>checkSafeCodeServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.checkSafeCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changePwdServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.changePwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>indexRefreshServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.indexRefreshServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>replyNoteServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.replyNoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>replyPageServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.replyPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delReplyServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.delReplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>replyReplyServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.replyReplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showMsgServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.showMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editMsgServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.editMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>checkNicknameServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.checkNicknameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uploadIconServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.uploadIconServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>msgNotePageServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.msgNotePageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>logoutServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.logoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editNoteSupServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.editNoteSupServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editNoteTopServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.editNoteTopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showIndexServlet</servlet-name>
+    <servlet-class>com.chinasoft.controller.servlets.showIndexServlet</servlet-class>
+  </servlet>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>notePageServlet</servlet-name>
+    <url-pattern>/notePageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showManagerServlet</servlet-name>
+    <url-pattern>/showManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showPageInfoServlet</servlet-name>
+    <url-pattern>/showPageInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showNoteInfoServlet</servlet-name>
+    <url-pattern>/showNoteInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>signinServlet</servlet-name>
+    <url-pattern>/signinServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pubNoteServlet</servlet-name>
+    <url-pattern>/pubNoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delNoteServlet</servlet-name>
+    <url-pattern>/delNoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registServlet</servlet-name>
+    <url-pattern>/registServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>backToIndexServlet</servlet-name>
+    <url-pattern>/backToIndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registCheckAccountServlet</servlet-name>
+    <url-pattern>/registCheckAccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registCheckPhoneServlet</servlet-name>
+    <url-pattern>/registCheckPhoneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>checkOldPwdServlet</servlet-name>
+    <url-pattern>/checkOldPwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>checkSafeCodeServlet</servlet-name>
+    <url-pattern>/checkSafeCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changePwdServlet</servlet-name>
+    <url-pattern>/changePwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>indexRefreshServlet</servlet-name>
+    <url-pattern>/indexRefreshServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>replyNoteServlet</servlet-name>
+    <url-pattern>/replyNoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>replyPageServlet</servlet-name>
+    <url-pattern>/replyPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delReplyServlet</servlet-name>
+    <url-pattern>/delReplyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>replyReplyServlet</servlet-name>
+    <url-pattern>/replyReplyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showMsgServlet</servlet-name>
+    <url-pattern>/showMsgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editMsgServlet</servlet-name>
+    <url-pattern>/editMsgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>checkNicknameServlet</servlet-name>
+    <url-pattern>/checkNicknameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uploadIconServlet</servlet-name>
+    <url-pattern>/uploadIconServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>msgNotePageServlet</servlet-name>
+    <url-pattern>/msgNotePageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logoutServlet</servlet-name>
+    <url-pattern>/logoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editNoteSupServlet</servlet-name>
+    <url-pattern>/editNoteSupServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editNoteTopServlet</servlet-name>
+    <url-pattern>/editNoteTopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showIndexServlet</servlet-name>
+    <url-pattern>/showIndexServlet</url-pattern>
+  </servlet-mapping>
+
+
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
